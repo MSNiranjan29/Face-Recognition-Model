@@ -32,19 +32,19 @@ Requirements.txt
 Below is a sample requirements.txt file containing the necessary packages:
 
 
-tensorflow
-keras
-pandas
-numpy
-jupyter
-notebook
-tqdm
-Pillow
-matplotlib
-seabornpip 
-keras-preprocessing
-scikit-learn
-opencv-contrib-python
+tensorflow,
+keras,
+pandas,
+numpy,
+jupyter,
+notebook,
+tqdm,
+Pillow,
+matplotlib,
+seabornpip, 
+keras-preprocessing,
+scikit-learn,
+opencv-contrib-python,
 
 Ensure this file is in the root directory of your project. If you need to add more dependencies, simply add them to this file and run the installation command again.
 
