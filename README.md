@@ -10,28 +10,28 @@ Installing Dependencies
 Clone the repository:
 
 
-git clone https://github.com/yourusername/realtime-face-emotion-detector.git
+"git clone https://github.com/yourusername/realtime-face-emotion-detector.git"
 cd realtime-face-emotion-detector
 Create a virtual environment (optional but recommended):
 
 
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+"python -m venv venv"
+"source venv/bin/activate"  # On Windows use `venv\Scripts\activate`
 Install the required packages:
 
 
-pip install -r requirements.txt
+"pip install -r requirements.txt"
 Running the Emotion Detector
 Once the dependencies are installed, you can run the emotion detector script:
 
 
-python realtimedetection.py
+"python realtimedetection.py"
 This will start the webcam and display a window with the real-time emotion detection results.
 
-Requirements.txt
+"Requirements.txt"
 Below is a sample requirements.txt file containing the necessary packages:
 
-
+[
 tensorflow,
 keras,
 pandas,
@@ -45,13 +45,14 @@ seabornpip,
 keras-preprocessing,
 scikit-learn,
 opencv-contrib-python,
+]
 
 Ensure this file is in the root directory of your project. If you need to add more dependencies, simply add them to this file and run the installation command again.
 
 Additional Information
 
 Model Training: If you wish to train the model on a new dataset, ensure you have a labeled dataset and modify the training scripts accordingly.
-Dataset: https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset
+Dataset: "https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset"
 
 Customization: You can customize the detection parameters and the model by editing the realtimedetection.py file.
 
